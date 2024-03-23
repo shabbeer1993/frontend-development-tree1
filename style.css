@@ -8,6 +8,13 @@ li {
   font-family: sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  color: rgba(16, 152, 173, 0.884);
+}
+
 /* Element Selector Syntaqx */
 h1 {
   font-size: 40px;
@@ -73,4 +80,56 @@ li {
 
 .related {
   list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  /* border: 5px dotted rgba(16, 152, 173, 0.884); */
+
+  /* border: 2px solid brown; */
+
+  border-top: 5px dotted rgba(16, 152, 173, 0.884);
+  border-bottom: 5px dotted rgba(89, 16, 173, 0.884);
+  /* border-left: 5px solid red;
+  border-right: 5px solid skyblue; */
+  width: 500px;
+}
+
+/* body {
+  background-color: aqua;
+} */
+
+/* .first-li {
+  font-weight: bold;
+  color: blueviolet;
+} */
+
+li:first-child {
+  font-weight: bold;
+  color: blueviolet;
+}
+
+li:last-child {
+  font-weight: bold;
+  color: blue;
+}
+
+/* li:nth-child(2) {
+  color: red;
+} */
+
+/* li:nth-child(even) {
+  color: red;
+} */
+
+li:nth-child(odd) {
+  color: red;
+}
+
+article p:first-child {
+  color: red;
 }
