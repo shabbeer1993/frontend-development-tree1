@@ -8,18 +8,12 @@ li {
   font-family: sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  color: rgba(16, 152, 173, 0.884);
-}
-
 /* Element Selector Syntaqx */
 h1 {
   font-size: 40px;
   text-transform: uppercase;
   font-style: italic;
+  color: blue;
 }
 
 h2 {
@@ -35,6 +29,13 @@ h4 {
 
   text-transform: uppercase;
   text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: rgba(16, 152, 173, 0.884);
 }
 
 p {
@@ -132,4 +133,20 @@ li:nth-child(odd) {
 
 article p:first-child {
   color: red;
+}
+
+#footer-style {
+  color: red;
+}
+
+.footer-class {
+  color: green;
+}
+
+.text-2nd-class {
+  color: blueviolet;
+}
+
+footer P {
+  color: blue !important;
 }
